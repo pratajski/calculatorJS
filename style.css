@@ -1,0 +1,43 @@
+button {
+    width: 40px;
+    height: 40px;
+    background-color: lightgrey;
+    border: gray 1px solid;
+    transition: background-color 1s;
+    /*border-radius: 5px; */
+}
+
+button:hover { /* akcja po najechaniu kursorem na przycisk. Można połączyć po przecinku na zasadzie button:hover, #display:hover */
+    background-color: cornflowerblue;
+    color: white;
+    
+}
+
+#display {
+    text-align: right;
+    background-color: lightgray;
+    width: 150px;
+    padding: 0px 5px 0px 3px;
+    font-size: 30px;
+    border: gray 1px solid;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#display:hover { /* akcja po najechaniu kursorem na przycisk */
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.num {
+    background-color: white;
+}
+
+.num:hover {
+    background-color: green;
+}
+
+.func button{
+    height: 20px;
+    font-size: 0.5em;
+}
